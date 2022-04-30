@@ -1,0 +1,47 @@
+.font-size-1 {
+    font-size: 35px;
+    padding-left: 260px;
+    color: white !important;
+}
+.color-change {
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%) !important;
+}
+.font-size {
+    font-size: 30px;
+    margin: 25px;
+}
+.searchbar {
+    margin: 20px;
+    padding: 10px;
+}
+.search {
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 207px;
+    color: white;
+    background-color: rgb(60, 145, 255);
+}
+.search:hover {
+    color: white;
+    background-color: rgb(34, 96, 212);
+}
+.current {
+    margin: 115px;
+    grid-column-start: auto;
+}
+.left-size {
+    display: inline-grid;
+    grid-column-start: auto;
+}
+#grid-container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 350px auto;
+}
+.search-history {
+    padding-left: 22px;
+    border-top: 2px solid gray;
+    width: 75%;
+    margin-left: 30px;
+}
